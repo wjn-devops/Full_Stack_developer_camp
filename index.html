@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,body{
+    height: 100%;
+    margin: 0 ;
+    overflow: auto;
+   
+  }
+.demo_wrap {
+    position: relative;
+    background:linear-gradient(rgb(44, 178, 240),rgb(168, 221, 245));
+    background-size: cover;
+    height: 100%;
+}
+.demo_wrap h1 {
+    padding: 50px;
+    position: relative;
+}
+
+.demo_wrap:before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('algorithm.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation: starflash 5s infinite alternate;
+}
+table,th,td{
+      border: 0px solid black;
+      padding: 10px;
+      border-collapse:collapse;
+    }
+    #head h1{
+      font-size:40px;
+      font-family: verdana;
+      color: white;
+    } 
+    #head p{
+      font-size:20px;
+      font-family: verdana;
+      color: rgb(224, 217, 217);
+    }
+.content th{
+  font-size:30px;
+  font-family: Courier New;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.content td{
+  font-size:20px;
+  font-family: Courier New;
+  color: rgb(71, 69, 69);
+}
+@keyframes starflash {
+
+  from{opacity: 0.8;
+  }
+  to{opacity: 0.3;
+  }
+}
+  </style>
+  
+</head>
+<body class="demo_wrap"   >
+  <table id="head" > 
+    <tr>
+      <td id="head" >
+       <h1>吳健寧</h1>
+       <p>現職:Site Reliability Engineering</p>
+      </td>
+    </tr>
+  </table>
+  <div class="content">
+ 
+    <table>
+      <tr>
+        <th>申請人</th>
+    
+      </tr>
+      <tr>
+        <td>吳健寧</td>
+      
+      </tr>
+      <tr>
+        <th>個人簡介</th>
+    
+      </tr>
+      <tr>
+        <td>於資訊相關科系畢系，目前於公家單位資訊部門擔任約聘工程師，工作內容為系統架設、維運及開發維運用途的相關程式(shell script)等。<br>
+            對於系統架構及網站建置有一定的認知，熟悉於linux及windows等OS進行作業，工作上已有撰寫一些小程式及HTML的經驗。
+        </td>
+      
+      </tr>
+      <tr>
+        <th>為什麼想成為全端工程師</th>
+        
+      </tr>
+      <tr>
+        <td>就職期間發現維運及開發團隊對彼此領域的技能及流程不熟悉，造成溝通上的代溝，希望透過習得軟體開發的技術加上自身的工作經驗，能在維運及開發團隊之間擔任跨領域的角色。</td>
+      
+      </tr>
+      <tr>
+        <th>為了成為工程師，你曾經做過甚麼努力?</th>
+       
+      </tr>
+      <tr>
+        <td> Operations:從零開始學習linux作業系統及伺服器硬體相關知識，架設實驗環境練習並累積一定經驗後承接公司現有服務的維運工作。<br>
+             Development:於網路上及書籍中搜尋相關學習資源，在教學網站中及自己建立的開發環境中做過前後端程式的練習。
+        </td>
+      
+      </tr>
+      <tr>
+        <th>對於工程師的想像是什麼?
+        </th>
+    
+      </tr>
+      <tr>
+        <td>目標為全端工程師，個人認知上涵蓋的技術範圍較廣度、需更新的技能也較多，在團隊中可能時常當任引進新技術的腳色。
+           </td>
+      
+      </tr>
+      <tr>
+        <th>如果參與這個計畫，你會怎麼安排時間?
+        </th>
+    
+      </tr>
+      <tr>
+        <td>
+          現職工時穩定且專案進行時間較不緊湊，目前規劃主要學習為下班時間、假日為主，工作上較不繁忙的時段為輔，若有必要的話也利用特休來完成目標。
+        </td>
+      
+      </tr>
+      <tr>
+        <th>如果參與這個計畫，你預期會遇到甚麼樣的困難?你打算怎麼面對並解決它?
+
+        </th>
+    
+      </tr>
+      <tr>
+        <td>根據課程規劃，於第二階段開始會有一些從未接觸過的技術，屆時將整合手邊的學習資源自行專研或是請益開發團隊的同事。</td>
+      
+      </tr>
+      <tr>
+        <th>想要對我們說的事情？
+
+        </th>
+    
+      </tr>
+      <tr>
+        <td>希望能將bootstrap、jquery納入課程中。<br>
+            若沒申請到此培訓計畫也能購買培訓用的線上課程嗎?
+        </td>
+        
+      
+      </tr>
+    </table>
+    
+       
+      
+  </div>
+</body>
+</html>
